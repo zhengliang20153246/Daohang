@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical"
+    tools:context="com.amap.navi.daohang.User.ZhuceActivity"
+    android:weightSum="1">
+
+    <TextView
+        style="@style/Smile.TextView._Black"
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:paddingTop="10dp"
+        android:text="注册"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout style="@style/Register_Input">
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/login_account"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_usernamezhuce"
+            style="@style/Register_Edit"
+            android:hint="@string/login_username_hint"
+            android:inputType="text"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/Register_Input">
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/login_pwd"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_passwordzhuce"
+            style="@style/Register_Edit"
+            android:hint="@string/login_password_hint"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout style="@style/Register_Input">
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="邮箱"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            style="@style/Register_Edit"
+            android:hint="请输入邮箱地址..."
+            android:maxLines="1"
+            android:selectAllOnFocus="false"
+            android:inputType="textEmailAddress|textEmailSubject|textWebEmailAddress" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/base_action_bar_height"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/btn_login_selector"
+        android:text="@string/register"
+        android:textColor="@color/base_color_text_white"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

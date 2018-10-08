@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AR Travel</string>
+    <string name="title_activity_daohang">DaohangActivity</string>
+    <string name="title_activity_biaoqian">BiaoqianActivity</string>
+    <string name="title_activity_xiangce">XiangceActivity</string>
+
+
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_phone_hint">请输入手机号&#8230;</string>
+    <string name="login_code_hint">请输入验证码&#8230;</string>
+    <string name="login_email_hint">请再次输入密码&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="next">确定</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_account">账号 </string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_newaccount">新账号 </string>
+    <string name="login_newpwd">新密码 </string>
+    <string name="login_email">确认密码 </string>
+    <string name="message_search_hint">搜索&#8230;</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg_color"
+    android:orientation="vertical"
+    tools:context="com.amap.navi.daohang.User.WangjimimaActivity"
+    android:weightSum="1">
+
+    <TextView
+        style="@style/Smile.TextView._Black"
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:paddingTop="10dp"
+        android:text="找回密码"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout style="@style/Register_Input">
+
+        <TextView
+            style="@style/Smile.TextView._Black"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="注册邮箱"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/Register_Edit"
+            android:hint="请输入注册邮箱"
+            android:maxLines="1"
+            android:selectAllOnFocus="false"
+            android:inputType="textEmailAddress|textEmailSubject|textWebEmailAddress" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/base_action_bar_height"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/btn_login_selector"
+        android:text="确认发送"
+        android:textColor="@color/base_color_text_white"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>
